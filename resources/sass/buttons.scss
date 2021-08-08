@@ -1,0 +1,112 @@
+.btn {
+  color: #4a4a4a;
+  background-color: #d7e3ec;
+  background-image: -webkit-linear-gradient(270deg, #fafafa 0%, #d7e3ec 90%);
+  background-image: linear-gradient(-180deg, #fafafa 0%, #d7e3ec 90%);
+  position: relative;
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-repeat: repeat-x;
+  background-position: -1px -1px;
+  background-size: 110% 110%;
+  border: 1px solid rgba(27,31,35,0.2);
+  border-radius: 0.25em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    background-color: #e5e5e5;
+    background-image: -webkit-linear-gradient(270deg, #d7e3ec 0%, #e5e5e5 90%);
+    background-image: linear-gradient(-180deg, #d7e3ec 0%, #e5e5e5 90%);
+    background-position: 0 -0.5em;
+    background-repeat: repeat-x;
+    border-color: rgba(27,31,35,0.35);
+    color: #0366d5;
+  }
+
+  &:active {
+    background-color: #d0d0d0;
+    background-image: none;
+    border-color: rgba(27,31,35,0.35);
+    box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,0.15)
+  }
+
+  &:disabled {
+    background-image: linear-gradient(-180deg, #d0d0d0 0%, #d0d0d0 90%);
+  }
+
+  &:focus {
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #228b22;
+  background-image: -webkit-linear-gradient(270deg, #32cd32 0%, #228b22 90%);
+  background-image: linear-gradient(-180deg, #32cd32 0%, #228b22 90%);
+
+  &:hover, &:focus {
+    background-color: #228b22;
+    background-image: -webkit-linear-gradient(270deg, #32cd32 0%, #228b22 90%);
+    background-image: linear-gradient(-180deg, #32cd32 0%, #228b22 90%);
+    background-position: 0 -0.5em;
+    border-color: #228b22;
+    color: #edd077;
+  }
+}
+
+.btn-danger {
+  color: #900;
+
+  &:hover, &:focus {
+    background-color: #b22222;
+    background-image: linear-gradient(#d9534f, #b22222);
+    border-color: #d9534f;
+    color: #fff;
+  }
+}
+
+.btn-warning {
+  color: #daa520;
+
+  &:hover, &:focus {
+    background-color: #daa520;
+    background-image: linear-gradient(#fffacd, #daa520);
+    border-color: #fffacd;
+    color: #fff;
+  }
+}
+
+.btn-add {
+  position: relative;
+  top: 3px;
+  border: 1px solid #4a4a4a;
+  border-radius: 50%;
+  width: 15px;
+  margin-right: 3px;
+}
+
+.small-btn {
+  background: #fff;
+  color: #4a4a4a;
+  opacity: 0.8;
+  box-shadow: 1px 0px 1px rgba(43, 45, 80, 0.16), -1px 1px 1px rgba(43, 45, 80, 0.16), 0px 1px 4px rgba(43, 45, 80, 0.18);
+  border-radius: 11px;
+  font-weight: 500;
+  text-decoration: none;
+}
